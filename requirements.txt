@@ -1,0 +1,16 @@
+# Torch + CUDA (nếu đã có CUDA 12.1 trở lên thì bỏ dấu # ở torch, torchvision)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# HuggingFace (BEiT-3)
+transformers>=4.40.0
+accelerate
+datasets
+
+# Utils
+numpy
+pillow
+tqdm
+
+# DeepSolo (repo riêng, sẽ clone bằng git)
+# PARSeq (repo riêng, sẽ clone bằng git)
